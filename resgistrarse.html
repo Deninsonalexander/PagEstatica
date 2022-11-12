@@ -51,37 +51,43 @@
             <div id="letrasF">
               <form class="row g-3 needs-validation"   novalidate>
                 <div class="col-md-6">
-                  <label for="validacionNombre" class="form-label">Nombres</label>
-                  <input type="text" class="form-control" id="validationCustom01" name="Nombres" value="Mark" required>
+                  <label for="txtNombres" class="form-label">Nombres</label>
+                  <input type="text" class="form-control" id="txtNombres" name="Nombres" placeholder="juanito" required>
                   <div class="valid-feedback">
                     correcto
                   </div>
+                  <div class="invalid-feedback">
+                    Por favor escriba sus nombres
+                  </div>
                 </div>
                 <div class="col-md-6">
-                  <label for="validationCustom02" class="form-label">Apellidos</label>
-                  <input type="text" class="form-control" id="validationCustom02" name="Apellidos" value="Cardona" required>
+                  <label for="txtApellidos" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="txtApellidos" name="Apellidos" placeholder="perez" required>
                   <div class="valid-feedback">
                     Correcto
                   </div>
+                  <div class="invalid-feedback">
+                    Por favor escriba sus Apellidos
+                  </div>
                 </div>
                 <div class="col-md-4">
-                  <label for="validationCustom03" class="form-label">Correo</label>
-                  <input type="text" class="form-control" id="validationCustom03" name="Correo" required>
+                  <label for="txtCorreo" class="form-label">Correo</label>
+                  <input type="text" class="form-control" id="txtCorreo" name="Correo" placeholder="juanito@ucaladas.com" required>
                   <div class="invalid-feedback">
                     Se requiere correo
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <label for="validationCustom03" class="form-label">Contraseña</label>
-                  <input type="text" class="form-control" id="validationCustom03" name="Contraseña" required>
+                  <label for="txtClave" class="form-label">Contraseña</label>
+                  <input type="text" class="form-control" id="txtClave" name="Contraseña" required>
                   <div class="invalid-feedback">
                     Por favor escriba su contraseña
                   </div>
                 </div>
                 
                 <div class="col-md-3">
-                  <label for="validationCustom05" class="form-label">Celular</label>
-                  <input type="text" class="form-control" id="validationCustom05" name="Celular" required>
+                  <label for="txtCelular" class="form-label">Celular</label>
+                  <input type="text" class="form-control" id="txtCelular" name="Celular" required>
                   <div class="invalid-feedback">
                     Se requiere celular
                   </div>
@@ -98,7 +104,7 @@
                   </div>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-dark" type="button" onclick="registroDatos()">Registrarse</button>
+                  <button class="btn btn-dark" type="submit" >Registrarse</button>
                 </div>
               </form>
 
@@ -128,6 +134,7 @@
         
         
 
-        <script src="./recursos/datos.js"></script>
+        
+        <script type="text/javascript" src="./config/javascript.js"></script>
     </body>
 </html>
